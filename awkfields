@@ -1,0 +1,1 @@
+awk '{print NR”: “$0; for(i=1;i&lt;=NF;++i)print “t”i”: “$i}'

@@ -1,0 +1,4 @@
+ls -l | awk '{s = s+$5 }; END { print s }'
+ls -lR |grep .mp3 | awk '{s = s+$5 }; END { print s }'
+find / -name "*.mp3" -exec ls -l {} ; | awk '{s = s+$5 }; END { print s }'
+
