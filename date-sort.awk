@@ -1,0 +1,3 @@
+awk -F
+\$1<=\"$(date +%Y-%m-%d)\"
+#This assumes the first column is in %Y-%m-%d date format... 
